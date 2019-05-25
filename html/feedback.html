@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/feedback.css">
+	
+	<title>Akshat Goyal</title>
+</head>
+<body>
+	<header>
+		<div id="top-left">
+			<p>Akshat Goyal</p>
+			<p>Student\IIIT Hyderabad</p>
+		</div>
+		
+		<div id="top-right">
+			<div id="icon">
+				<i class="fa-3x fa fa-bars" aria-hidden="true"></i>
+			</div>
+
+			<div class="top-right-section"><a href="./feedback.html">Feedback</a></div>
+			<div class="top-right-section"><a href="./profile.html">Profile</a></div>
+			<div class="top-right-section"><a href="./index.html">Home</a></div>
+		</div>
+	</header>
+
+	<main>
+		<div id="like">
+			<button id="button">Like</button>
+			<span> 0</span>
+		</div>
+
+		<form>
+			<label>Name: </label>
+			<input type="text" id="name" placeholder="Name"><br/>
+			<label>Skills:  </label>
+			<select id="skill">
+				<option>HTML</option>
+				<option>CSS</option>
+				<option>Javascript</option>
+				<option>C/C++</option>
+				<option>Bash Scripting</option>
+			</select><br/>
+			<label>Level:  </label>
+			<select id="level">
+				<option>Beginner</option>
+				<option>Intermediate</option>
+				<option>Proficient</option>
+			</select>
+		</form>
+		<button id="submit">Submit</button>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Skill</th>
+					<th>Level</th>
+				</tr>
+			</thead>
+			<tbody id="bod">
+				
+			</tbody>
+		</table>
+	</main>
+
+	<footer>
+		<div id="bottom-bar">
+			<div class="bottom-section"><a href="https://www.iiit.ac.in" target="_blank">IIIT-H</a></div>
+			<div class="bottom-section"><a href="https://www.google.com" target="_blank">Google</a></div>
+			<div class="bottom-section"><a href="./contact.html">Contact</a></div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="../js/main.js"></script>
+	<script type="text/javascript" src="../js/feedback.js"></script>
+</body>
+</html>
