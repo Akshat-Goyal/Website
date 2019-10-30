@@ -38,6 +38,7 @@ for(var i=0;i<x.length;i++){
 var imgSrc=["../img/quote1.jpg","../img/quote2.jpg","../img/quote3.jpg","../img/quote4.jpg","../img/quote5.jpg"];
 var imgCount=0;
 $("#img").click(function(){
-	imgCount=(imgCount+1)%5;
+	imgCount=imgCount+1;
+	imgCount=(imgCount)%5;
 	$(this).attr("src",imgSrc[imgCount]);
 });
