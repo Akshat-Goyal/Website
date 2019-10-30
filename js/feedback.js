@@ -19,7 +19,8 @@ else{
 $("span").html(count);
 
 $("#button").click(function(){
-    count=Number(localStorage.getItem("like"))+1; 
+    count=Number(localStorage.getItem("like"));
+	count=count+1;
     localStorage.setItem("like",count);
 	$("span").html(count);
 });
